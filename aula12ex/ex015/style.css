@@ -20,6 +20,10 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
 }
 
+img {
+    max-width: 250px;
+    max-height: 250px;
+
 footer{
     background-color: white;
     text-align: center;
