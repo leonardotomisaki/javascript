@@ -34,14 +34,14 @@ function verificar() {
         } else if (idade >= 12 && idade < 22) {
             //Jovem
             imagem.setAttribute('src','imagens/jovem-f.png')
-        } else if (idade > 22 && idade < 60){
+        } else if (idade > 22 && idade < 60) {
             //Adulto
             imagem.setAttribute('src','imagens/adulto-f.png')
         } else {
             //Idoso
             imagem.setAttribute('src','imagens/idoso-f.png')
         }
-    }
+    }   res.style.textAlign = 'Center'
         res.innerHTML = (`Detectamos ${genero} com ${idade} anos!`)
         res.appendChild(imagem)
     }

@@ -20,6 +20,10 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
 }
 
+div #res {
+    position: center;
+}
+
 footer{
     background-color: white;
     text-align: center;
